@@ -1,0 +1,40 @@
+:root {
+  --purple: #69696A;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  padding: 30px;
+  margin: 30px;
+  background-color: #F6F9FE;
+  border-radius: 20px;
+}
+
+button {
+  background-color: #372865;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+a {
+  color: var(--purple); 
+}
+
+nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
